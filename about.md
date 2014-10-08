@@ -4,5 +4,5 @@ title: About
 permalink: about/
 ---
 
-Watch this weblog for my updates on Memex project!
+A weblog to document all my experiments as a part of the MEMEX project!
 
