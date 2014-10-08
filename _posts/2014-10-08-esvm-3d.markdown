@@ -52,7 +52,7 @@ which might be quite close to the original dataset but probably I'm not supposed
 I went through his paper and code. Just a thought: the method expects low intra-class variation
 for the 'co-segmentation' to be successful. This is expected from images of aeroplanes/cars which he uses.
 As I understand,  our objective is to determine such classes for selfie images.
-The selfie images I've gone through seem to have very high variations - would probably require quite a large dataset.. 
+The selfie images I've gone through seem to have very high variations - would probably require quite a large dataset to find meaningful classes.. 
 
 ---
 
