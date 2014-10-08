@@ -5,5 +5,34 @@ date:   2014-10-08 03:32:00
 categories: esvm
 ---
 
+### Vanilla ESVM
 
+Results [here](http://pyrie.vmr.cs.cmu.edu/~rohit/results/esvm/001_vanilla/www/publish/esvm_matches/esvm_matches001.html).
+Some really good ones: [22](http://pyrie.vmr.cs.cmu.edu/~rohit/results/esvm/001_vanilla/www/publish/esvm_matches/esvm_matches002.html#row21),
+[30](http://pyrie.vmr.cs.cmu.edu/~rohit/results/esvm/001_vanilla/www/publish/esvm_matches/esvm_matches002.html#row30),
+[32](http://pyrie.vmr.cs.cmu.edu/~rohit/results/esvm/001_vanilla/www/publish/esvm_matches/esvm_matches002.html#row32),
+[33](http://pyrie.vmr.cs.cmu.edu/~rohit/results/esvm/001_vanilla/www/publish/esvm_matches/esvm_matches002.html#row33)
 
+### Augmented ESVM
+Added ~15K distractors from MIT67 dataset to existing
+3K retrieval set (good images)
+to make a 18K retrieval set. Used BoW over all images to
+select top 5000, and ran ESVM over this 5000.
+
+#### Qualitative results 
+[here](http://pyrie.vmr.cs.cmu.edu/~rohit/results/esvm/004_withDistractors/www/publish/esvm_matches_with_distractors/esvm_matches001.html)[^note]
+
+[^note]: would require David's web server running to retrieve
+the distractor images to show
+
+#### Quantitative
+
+ Measure   | without distractors | with distractors 
+ ---| ---- | ---   
+mP1 |   0.700000 | 0.672727
+mP3 |   0.562121 | 0.548485
+mP5 |   0.492727 | 0.468182
+mP10|   0.386818 | 0.364545
+mP20|   0.281591 | 0.265000
+one hit in top 3| 0.786364 | 0.777273
+one hit in top 10| 0.786364 | 0.850000
