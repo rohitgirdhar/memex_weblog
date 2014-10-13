@@ -32,6 +32,11 @@ For every match, I show 3 images (in order):
 For the surface normals to match, the angle should be close to 0, or the error map image should be dark.
 4. The number at the end is the average angle between surface normals (averaged over whole image)[^confidence]
 
+Note:
+
+1. Large viewpoint variations give large error values,
+even though images are very similar.
+
 For reference, the full image 3D normals images are present [here](http://pyrie.vmr.cs.cmu.edu/~rohit/results/esvm/006_Vanilla3DP_hotels/publish/3DN/3DN001.html).
 
 [^confidence]: Not completely confident about the numbers - need to verify.
