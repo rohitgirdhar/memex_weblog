@@ -6,6 +6,10 @@ categories: xinlei segmentation selfie
 
 ### Gym Selfie
 
+**update** (Tue 21 Oct 2014 05:38:38 PM EDT)   
+Updated the visualization to include the various detections and corresponding detectors averages.
+
+
 [Here](http://pyrie.vmr.cs.cmu.edu/~rohit/projects/003_SelfieSegmentation/results/002_Vanilla_FullBody1K/fullbody/gym/publish/selfies-gym/s001.html)
 are the results for Gym Selfie segmentation (760 images).
 
