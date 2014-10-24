@@ -24,3 +24,15 @@ Each row is a cluster. I think results are reasonable, though maybe not super-us
 
 I'm now trying clustering using a bag of words over DSIFT from the background (Running codebook computation now).
 
+#### DSIFT
+**Update** Fri 24 Oct 2014 12:13:34 PM EDT  
+Kmeans clustering (k = 60) using DSIFT from the background, quantized into 1000 Visual words. Results 
+[here](http://pyrie.vmr.cs.cmu.edu/~rohit/projects/003_SelfieSegmentation/results/004_ClusterColorHist_Gym/fullbody/publish/selfies-gym-clusters_dsift/c001.html).
+
+Some results are kind-of interesting, such as          
+[45](http://pyrie.vmr.cs.cmu.edu/~rohit/projects/003_SelfieSegmentation/results/004_ClusterColorHist_Gym/fullbody/publish/selfies-gym-clusters_dsift/c002.html#row44),
+the same girl in multiple poses, but the same background             
+[35](http://pyrie.vmr.cs.cmu.edu/~rohit/projects/003_SelfieSegmentation/results/004_ClusterColorHist_Gym/fullbody/publish/selfies-gym-clusters_dsift/c002.html#row34)
+has Justin Bieber in 2 similar images, and for whatever reason - all the selfies are taken in a slanting fashion
+
+
