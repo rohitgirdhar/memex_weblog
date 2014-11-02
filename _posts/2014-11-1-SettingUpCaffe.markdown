@@ -20,5 +20,6 @@ In access & security, add rules to
 {% highlight text %}
 ALLOW IPv4 443/tcp to 0.0.0.0/0 (custom TCP, egress 443 (HTTPS), CIDR)
 ALLOW IPv4 22/tcp to 0.0.0.0/0 (egress 22 (SSH), -rest same-)
+ALLOW IPv4 9418/tcp to 0.0.0.0/0 (egress 9418)
 {% endhighlight %}
 
