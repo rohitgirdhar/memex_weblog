@@ -41,6 +41,21 @@ at least 1 hit in top 3 = 0.777273
 at least 1 hit in top 10 = 0.850000
 {% endhighlight %}
 
+**Update** Wed 05 Nov 2014 12:23:34 AM EST 
+
+
+#### Bag of words
+- Sparse SIFT, clustered into 10K visual words
+{% highlight text %}
+Without distractors
+mP1 = 0.131818
+mP3 = 0.156061
+mP5 = 0.181818
+mP10 = 0.201818
+mP20 = 0.177045
+at least 1 hit in 3 = 0.300000
+at least 1 hit in 10 = 0.640909
+{% endhighlight %}
 
 ### Code Details
 1. Evaluated using 
