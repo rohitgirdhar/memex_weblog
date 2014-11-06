@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CNN on Hussian Hotels dataset"
+title:  "Consolidated results for Hussian Hotels dataset"
 categories: CNN hotels
 ---
 
