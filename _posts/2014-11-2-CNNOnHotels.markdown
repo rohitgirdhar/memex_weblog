@@ -20,6 +20,21 @@ at least 1 hit in 3 = 0.668182
 at least 1 hit in 10 = 0.850000
 {% endhighlight %}
 
+**update** Thu 06 Nov 2014 11:22:45 AM EST 
+
+With distractors (Using `pool5` features over the hussian hotels + MIT distractors - Total ~19000 images.
+Using cosine similarity, searching linearly over all the images, not over a subset selected by BoW)
+
+```text
+mP1 = 0.536364
+mP3 = 0.403030
+mP5 = 0.342727
+mP10 = 0.260455
+mP20 = 0.182045
+at least 1 hit in 3 = 0.654545
+at least 1 hit in 10 = 0.809091
+```
+
 For comparison, here is how ESVM performed (shared in an email sometime back)
 {% highlight text %}
 without distractors:
