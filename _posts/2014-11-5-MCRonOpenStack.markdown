@@ -16,3 +16,19 @@ $ ./install -destinationFolder /exports/cyclops/software/matlab/MatlabCompilerRu
 
 Now MCR is installed in `/exports/cyclops/software/matlab/MatlabCompilerRuntime`.
 
+## Running a program
+Compile it in the source machine
+
+```matlab
+>> mcc -m -v -w enable -R -startmsg -R -completemsg <prog_name>.m
+```
+
+Then, `scp <prog_name> run_<prog_name>.sh engine:`
+
+Now to run it on `engine`:
+
+```bash
+$ bash run_<prog_name>.sh ${MCRROOTDIR}/v81
+# for the above, it will be: bash run_<prog_name>.sh /exports/cyclops/software/matlab/MatlabCompilerRuntime/v81/
+```
+
