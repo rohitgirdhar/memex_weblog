@@ -20,6 +20,8 @@ Now MCR is installed in `/exports/cyclops/software/matlab/MatlabCompilerRuntime`
 Compile it in the source machine
 
 ```matlab
+% Important to add the paths, else some files will be missed from the compiled version
+>> addpath(genpath('/Path/To/Code/Root/Dir'));
 >> mcc -m -v -w enable -R -startmsg -R -completemsg <prog_name>.m
 ```
 
